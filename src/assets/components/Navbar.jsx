@@ -35,8 +35,8 @@ const Navbar = () => {
                                 </div>
                             </div>
                         <div className="absolute inset-y-0 right-0 flex justify-end items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                            <button type="button" className="relative bg-gray p-2 text-green-400 font-semibold cursor-pointer rounded-[10px]">Login</button>
-                            <button type="button" className="relative bg-green-400 p-2 text-white font-semibold cursor-pointer rounded-[10px]">Join Us</button>
+                            <button type="button" className="relative bg-gray p-2 text-green-400 font-semibold cursor-pointer rounded-[5px]">Login</button>
+                            <button type="button" className="relative bg-green-400 p-2 text-white font-semibold cursor-pointer rounded-[6px]">Join Us</button>
                         </div>
                         </div>
                     </div>
