@@ -3,7 +3,7 @@ import React from 'react'
 const Client = () => {
   return (
     <>
-      <div className="mt-3 pt-0 h-fit grid grid-rows-1 flex-row overflow-hidden bg-gray-100">
+      <div className="mt-5 pt-5 mb-5 pb-5 h-fit grid grid-rows-1 flex-row overflow-hidden bg-gray-100">
         <div className="mx-auto flex justify-center items-center">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <img src="src\assets\img\line.PNG" className="pt-2 pb-2" />

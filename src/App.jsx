@@ -1,5 +1,7 @@
 import './App.css'
 import Client from './assets/components/Client'
+import ClientsSay from './assets/components/clientsSay'
+import Courses from './assets/components/Courses'
 import Economy from './assets/components/Economy'
 import Header from './assets/components/Header'
 import Navbar from './assets/components/Navbar'
@@ -14,6 +16,8 @@ function App() {
      <Economy />
      <Client />
      <Teacher />
+     <ClientsSay />
+     <Courses />
     </>
   )
 }

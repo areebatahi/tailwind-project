@@ -3,7 +3,7 @@ import React from 'react'
 const Teacher = () => {
     return (
         <>
-            <div className="m-0 pt-0 h-fit grid grid-rows-1 flex-row overflow-hidden bg-gray-100">
+            <div className="mt-5 pt-5 mb-5 pb-10 h-fit grid grid-rows-1 flex-row overflow-hidden bg-gray-100">
                 <div className="mx-auto flex justify-center items-center flex-col">
                     <p className='font-semibold'>Teacher's Panel</p>
                     <h2 className="text-5xl font-bold text-black">See Our Talented Teacher</h2>
