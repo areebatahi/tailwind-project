@@ -3,9 +3,8 @@ import React from 'react'
 const Navbar = () => {
     return (
         <>
-            <nav className="bg-white-100 h-26 justify-evenly content-center">
-                <div className="max-w-7xl px-2 sm:px-6 lg:px-10">
-                    <div className="relative flex h-16 items-center justify-between">
+            <nav className="bg-white-100 h-26 justify-between">
+                    <div className="relative flex p-3 h-16 items-center justify-between">
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                             <button type="button" className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset" aria-controls="mobile-menu" aria-expanded="false">
                                 <span className="absolute -inset-0.5"></span>
@@ -40,7 +39,6 @@ const Navbar = () => {
                         </div>
                         </div>
                     </div>
-                </div>
 
                 <div className="sm:hidden" id="mobile-menu">
                     <div className="space-y-1 px-2 pt-2 pb-3">
@@ -54,7 +52,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-
         </>
     )
 }
