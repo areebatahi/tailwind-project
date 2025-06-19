@@ -11,7 +11,7 @@ const Courses = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {/* Course Card 1 */}
                     <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
-                        <img src="/src/assets/img/GraphicDesigners.PNG" alt="Graphic Design" className="w-full h-48 object-cover" />
+                        <img src="/public/img/GraphicDesigners.PNG" alt="Graphic Design" className="w-full h-48 object-cover" />
                         <div className="p-6 flex flex-col justify-between flex-1">
                             <h3 className="text-2xl font-bold text-gray-900 mb-2">Graphic Design</h3>
                             <p className="text-gray-600 mb-4">
@@ -28,7 +28,7 @@ const Courses = () => {
 
                     {/* Course Card 2 */}
                     <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
-                        <img src="/src/assets/img/WebDevelopment.PNG" alt="Web Development" className="w-full h-48 object-cover" />
+                        <img src="/public/img/WebDevelopment.PNG" alt="Web Development" className="w-full h-48 object-cover" />
                         <div className="p-6 flex flex-col justify-between flex-1">
                             <h3 className="text-2xl font-bold text-gray-900 mb-2">Web Development</h3>
                             <p className="text-gray-600 mb-4">
@@ -45,7 +45,7 @@ const Courses = () => {
 
                     {/* Course Card 3 */}
                     <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
-                        <img src="/src/assets/img/SEO.PNG" alt="SEO" className="w-full h-48 object-cover" />
+                        <img src="/public/img/SEO.PNG" alt="SEO" className="w-full h-48 object-cover" />
                         <div className="p-6 flex flex-col justify-between flex-1">
                             <h3 className="text-2xl font-bold text-gray-900 mb-2">SEO</h3>
                             <p className="text-gray-600 mb-4">

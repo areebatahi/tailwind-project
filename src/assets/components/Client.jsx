@@ -6,7 +6,7 @@ const Client = () => {
       <div className="container mx-auto max-w-screen-xl px-4 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Left Text Content */}
         <div>
-          <img src="/src/assets/img/line.PNG" alt="Line Design" className="mb-4" />
+          <img src="/public/img/line.PNG" alt="Line Design" className="mb-4" />
           <h2 className="text-5xl font-bold text-black mb-4">Every Client Matters</h2>
           <p className="text-gray-600 text-lg mb-6">
             Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics.
@@ -18,7 +18,7 @@ const Client = () => {
 
         {/* Right Image */}
         <div className="flex justify-center">
-          <img src="/src/assets/img/Client.PNG" alt="Client Illustration" className="w-full max-w-md rounded-md" />
+          <img src="/public/img/Client.PNG" alt="Client Illustration" className="w-full max-w-md rounded-md" />
         </div>
       </div>
     </div>
