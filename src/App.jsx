@@ -1,6 +1,6 @@
 import './App.css'
 import Client from './assets/components/Client'
-import ClientsSay from './assets/components/ClientsSay'
+import ClientsSay from "./assets/components/ClientsSay";
 import Courses from './assets/components/Courses'
 import Economy from './assets/components/Economy'
 import Footer from './assets/components/Footer'
