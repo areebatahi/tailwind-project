@@ -1,59 +1,74 @@
-import React from 'react'
+import React from 'react';
 
 const Navbar = () => {
     return (
-        <>
-            <nav className="bg-white-100 h-26 justify-between">
-                    <div className="relative flex p-3 h-16 items-center justify-between">
-                        <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                            <button type="button" className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset" aria-controls="mobile-menu" aria-expanded="false">
-                                <span className="absolute -inset-0.5"></span>
-                                <span className="sr-only">Open main menu</span>
+        <nav className="bg-white shadow-md">
+            <div className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+                <div className="flex justify-between items-center h-16">
 
-                                <svg className="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                                </svg>
-                                <svg className="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                                </svg>
-                            </button>
-                        </div>
-                        <div className="flex flex-1 items-center justify-between sm:items-stretch sm:justify-start">
-                            <div className="flex shrink-0 items-center">
-                            <a href="#" className="block rounded-md px-3 py-2 font-bold text-xl text-black hover:bg-gray-200 ">AreebaPRO</a>
-                            </div>
-                            <div className="hidden sm:ml-6 sm:block">
-                                <div className="flex space-x-4">
-                                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-200 ">Home</a>
-                                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-200 ">Info</a>
-                                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-200 ">pricing</a>
-                                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-200 ">pricing</a>
-                                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-200 ">Teacher</a>
-                                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-200 ">Review</a>
-                                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-200 ">Contact</a>
-                                </div>
-                            </div>
-                        <div className="absolute inset-y-0 right-0 flex justify-end items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                            <button type="button" className="relative bg-gray p-2 text-green-400 font-semibold cursor-pointer rounded-[5px]">Login</button>
-                            <button type="button" className="relative bg-green-400 p-2 text-white font-semibold cursor-pointer rounded-[6px]">Join Us</button>
-                        </div>
-                        </div>
+                    {/* Logo */}
+                    <div className="flex-shrink-0">
+                        <a href="#" className="text-xl font-bold text-black hover:text-green-500 transition">
+                            AreebaPRO
+                        </a>
                     </div>
 
-                <div className="sm:hidden" id="mobile-menu">
-                    <div className="space-y-1 px-2 pt-2 pb-3">
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium  text-black hover:bg-gray-200">Home</a>
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium  text-black hover:bg-gray-200">Info</a>
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium  text-black hover:bg-gray-200">pricing</a>
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium  text-black hover:bg-gray-200">pricing</a>
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium  text-black hover:bg-gray-200">Teacher</a>
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium  text-black hover:bg-gray-200">Review</a>
-                        <a href="#" className="block rounded-md px-3 py-2 text-base font-medium  text-black hover:bg-gray-200">Contact</a>
+                    {/* Desktop Navigation */}
+                    <div className="hidden sm:flex space-x-6">
+                        {['Home', 'Info', 'Pricing', 'Teacher', 'Review', 'Contact'].map((item) => (
+                            <a
+                                key={item}
+                                href="#"
+                                className="text-base text-black font-medium hover:text-green-500 transition"
+                            >
+                                {item}
+                            </a>
+                        ))}
+                    </div>
+
+                    {/* Desktop Buttons */}
+                    <div className="hidden sm:flex space-x-3">
+                        <button className="px-4 py-2 text-green-600 font-semibold bg-gray-200 rounded-md hover:bg-gray-300 transition">
+                            Login
+                        </button>
+                        <button className="px-4 py-2 bg-green-500 text-white font-semibold rounded-md hover:bg-green-600 transition">
+                            Join Us
+                        </button>
+                    </div>
+
+                    {/* Mobile Menu Button */}
+                    <div className="sm:hidden">
+                        <button className="text-gray-500 hover:text-black focus:outline-none">
+                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
-            </nav>
-        </>
-    )
-}
 
-export default Navbar
+                {/* Mobile Menu */}
+                <div className="sm:hidden mt-2 space-y-1">
+                    {['Home', 'Info', 'Pricing', 'Teacher', 'Review', 'Contact'].map((item) => (
+                        <a
+                            key={item}
+                            href="#"
+                            className="block px-3 py-2 text-black rounded-md hover:bg-gray-100"
+                        >
+                            {item}
+                        </a>
+                    ))}
+                    <div className="flex space-x-2 px-3 pt-2">
+                        <button className="w-full px-4 py-2 text-green-600 font-semibold bg-gray-200 rounded-md">
+                            Login
+                        </button>
+                        <button className="w-full px-4 py-2 bg-green-500 text-white font-semibold rounded-md">
+                            Join Us
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    );
+};
+
+export default Navbar;

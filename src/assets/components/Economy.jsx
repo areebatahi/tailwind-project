@@ -1,30 +1,37 @@
-import React from 'react'
+import React from 'react';
 
 const Economy = () => {
   return (
-    <>
-      <div className="mx-auto grid grid-rows-1 flex-row justify-center">
-        <div className="mx-auto flex justify-between mt-20 mb-20">
-          <div className="mr-35 text-center">
-            <h2 className="text-6xl font-bold tracking-tigh text-green-400">15K</h2>
-            <p>Happy Customers</p>
+    <div className="bg-white py-20">
+      <div className="container mx-auto max-w-screen-xl px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+          {/* Stat 1 */}
+          <div>
+            <h2 className="text-6xl font-bold text-green-400 tracking-tight">15K</h2>
+            <p className="text-gray-700 mt-2">Happy Customers</p>
           </div>
-          <div className="mr-35 text-center">
-            <h2 className="text-6xl font-bold tracking-tigh text-green-400">150K</h2>
-            <p>Monthly Visitors</p>
+
+          {/* Stat 2 */}
+          <div>
+            <h2 className="text-6xl font-bold text-green-400 tracking-tight">150K</h2>
+            <p className="text-gray-700 mt-2">Monthly Visitors</p>
           </div>
-          <div className="mr-35 text-center">
-            <h2 className="text-6xl font-bold tracking-tigh text-green-400">15</h2>
-            <p>Countries Worldwide</p>
+
+          {/* Stat 3 */}
+          <div>
+            <h2 className="text-6xl font-bold text-green-400 tracking-tight">15</h2>
+            <p className="text-gray-700 mt-2">Countries Worldwide</p>
           </div>
-          <div className="mr-35 text-center">
-            <h2 className="text-6xl font-bold tracking-tigh text-green-400">100+</h2>
-            <p>Top Partners</p>
+
+          {/* Stat 4 */}
+          <div>
+            <h2 className="text-6xl font-bold text-green-400 tracking-tight">100+</h2>
+            <p className="text-gray-700 mt-2">Top Partners</p>
           </div>
         </div>
       </div>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default Economy
+export default Economy;

@@ -1,62 +1,70 @@
-import React from 'react'
+import React from 'react';
 
 const Teacher = () => {
     return (
-        <>
-            <div className="mt-5 pt-5 mb-5 pb-10 h-fit grid grid-rows-1 flex-row overflow-hidden bg-gray-100">
-                <div className="mx-auto flex justify-center items-center flex-col">
-                    <p className='font-semibold'>Teacher's Panel</p>
-                    <h2 className="text-5xl font-bold text-black">See Our Talented Teacher</h2>
-                    <div className="flex justify-between items-center text-center">
-                        <div className="mr-33 mt-7">
-                            <img src="src\assets\img\images.jpeg" className="w-35 rounded-[100px]" />
-                            <p className='font-semibold text-xl'>Roy Hardy</p>
-                            <p className=''>Web Developer</p>
-                            <div className="pt-3 flex justify-center items-center">
-                                <img src="src\assets\img\emailIcon.jpg" className="w-6" />
-                                <img src="src\assets\img\twiter.png" className="w-5" />
-                                <img src="src\assets\img\linkend.PNG" className="w-6" />
-                                <img src="src\assets\img\git.png" className="w-5" />
-                            </div>
+        <div className="bg-gray-100 py-16">
+            <div className="container mx-auto max-w-screen-xl px-4 text-center">
+                {/* Heading */}
+                <p className="text-md font-semibold text-gray-600">Teacher's Panel</p>
+                <h2 className="text-5xl font-bold text-black mb-12">See Our Talented Teachers</h2>
+
+                {/* Teachers Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+                    {/* Teacher 1 */}
+                    <div className="bg-white p-6 rounded-lg shadow-md">
+                        <img src="/src/assets/img/images.jpeg" alt="Roy Hardy" className="w-28 h-28 rounded-full mx-auto mb-4 object-cover" />
+                        <p className="text-xl font-semibold text-black">Roy Hardy</p>
+                        <p className="text-gray-500">Web Developer</p>
+                        <div className="flex justify-center gap-3 mt-4">
+                            <img src="/src/assets/img/emailIcon.jpg" className="w-5 h-5 cursor-pointer" alt="email" />
+                            <img src="/src/assets/img/twiter.png" className="w-5 h-5 cursor-pointer" alt="twitter" />
+                            <img src="/src/assets/img/linkend.PNG" className="w-5 h-5 cursor-pointer" alt="linkedin" />
+                            <img src="/src/assets/img/git.png" className="w-5 h-5 cursor-pointer" alt="github" />
                         </div>
-                        <div className="mr-33 mt-7">
-                            <img src="src\assets\img\images (1).jpg" className="w-35 rounded-[100px]" />
-                            <p className='font-semibold text-xl'>Jake Burke</p>
-                            <p className=''>Graphic Designer</p>
-                            <div className="pt-3 flex justify-center items-center">
-                                <img src="src\assets\img\emailIcon.jpg" className="w-6" />
-                                <img src="src\assets\img\twiter.png" className="w-5" />
-                                <img src="src\assets\img\linkend.PNG" className="w-6" />
-                                <img src="src\assets\img\git.png" className="w-5" />
-                            </div>
+                    </div>
+
+                    {/* Teacher 2 */}
+                    <div className="bg-white p-6 rounded-lg shadow-md">
+                        <img src="/src/assets/img/images (1).jpg" alt="Jake Burke" className="w-28 h-28 rounded-full mx-auto mb-4 object-cover" />
+                        <p className="text-xl font-semibold text-black">Jake Burke</p>
+                        <p className="text-gray-500">Graphic Designer</p>
+                        <div className="flex justify-center gap-3 mt-4">
+                            <img src="/src/assets/img/emailIcon.jpg" className="w-5 h-5 cursor-pointer" alt="email" />
+                            <img src="/src/assets/img/twiter.png" className="w-5 h-5 cursor-pointer" alt="twitter" />
+                            <img src="/src/assets/img/linkend.PNG" className="w-5 h-5 cursor-pointer" alt="linkedin" />
+                            <img src="/src/assets/img/git.png" className="w-5 h-5 cursor-pointer" alt="github" />
                         </div>
-                        <div className="mr-33 mt-7">
-                            <img src="src\assets\img\images (2).jpeg" className="w-35 rounded-[100px]" />
-                            <p className='font-semibold text-xl'>Donnie Houston</p>
-                            <p className=''>Visual Designer</p>
-                            <div className="pt-3 flex justify-center items-center">
-                                <img src="src\assets\img\emailIcon.jpg" className="w-6" />
-                                <img src="src\assets\img\twiter.png" className="w-5" />
-                                <img src="src\assets\img\linkend.PNG" className="w-6" />
-                                <img src="src\assets\img\git.png" className="w-5" />
-                            </div>
+                    </div>
+
+                    {/* Teacher 3 */}
+                    <div className="bg-white p-6 rounded-lg shadow-md">
+                        <img src="/src/assets/img/images (2).jpeg" alt="Donnie Houston" className="w-28 h-28 rounded-full mx-auto mb-4 object-cover" />
+                        <p className="text-xl font-semibold text-black">Donnie Houston</p>
+                        <p className="text-gray-500">Visual Designer</p>
+                        <div className="flex justify-center gap-3 mt-4">
+                            <img src="/src/assets/img/emailIcon.jpg" className="w-5 h-5 cursor-pointer" alt="email" />
+                            <img src="/src/assets/img/twiter.png" className="w-5 h-5 cursor-pointer" alt="twitter" />
+                            <img src="/src/assets/img/linkend.PNG" className="w-5 h-5 cursor-pointer" alt="linkedin" />
+                            <img src="/src/assets/img/git.png" className="w-5 h-5 cursor-pointer" alt="github" />
                         </div>
-                        <div className="mr-33 mt-7">
-                            <img src="src\assets\img\images (3).jpeg" className="w-35 rounded-[100px]" />
-                            <p className='font-semibold text-xl'>Vicki Morales</p>
-                            <p className=''>App Developer</p>
-                            <div className="pt-3 flex justify-center items-center">
-                                <img src="src\assets\img\emailIcon.jpg" className="w-6" />
-                                <img src="src\assets\img\twiter.png" className="w-5" />
-                                <img src="src\assets\img\linkend.PNG" className="w-6" />
-                                <img src="src\assets\img\git.png" className="w-5" />
-                            </div>
+                    </div>
+
+                    {/* Teacher 4 */}
+                    <div className="bg-white p-6 rounded-lg shadow-md">
+                        <img src="/src/assets/img/images (3).jpeg" alt="Vicki Morales" className="w-28 h-28 rounded-full mx-auto mb-4 object-cover" />
+                        <p className="text-xl font-semibold text-black">Vicki Morales</p>
+                        <p className="text-gray-500">App Developer</p>
+                        <div className="flex justify-center gap-3 mt-4">
+                            <img src="/src/assets/img/emailIcon.jpg" className="w-5 h-5 cursor-pointer" alt="email" />
+                            <img src="/src/assets/img/twiter.png" className="w-5 h-5 cursor-pointer" alt="twitter" />
+                            <img src="/src/assets/img/linkend.PNG" className="w-5 h-5 cursor-pointer" alt="linkedin" />
+                            <img src="/src/assets/img/git.png" className="w-5 h-5 cursor-pointer" alt="github" />
                         </div>
                     </div>
                 </div>
             </div>
-        </>
-    )
-}
+        </div>
+    );
+};
 
-export default Teacher
+export default Teacher;
