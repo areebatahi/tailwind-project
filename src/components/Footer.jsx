@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="container mx-auto max-w-screen-xl px-4 flex flex-col lg:flex-row items-center justify-between gap-10">
                     {/* Image */}
                     <div className="flex justify-center lg:justify-start">
-                        <img src="/public/img/footer-img.PNG" alt="Mobile App" className="w-[300px] sm:w-[400px] rounded-md" />
+                        <img src="/assets/img/footer-img.PNG" alt="Mobile App" className="w-[300px] sm:w-[400px] rounded-md" />
                     </div>
 
                     {/* Content */}
@@ -20,11 +20,11 @@ const Footer = () => {
                         </p>
                         <div className="flex flex-wrap justify-center lg:justify-start gap-4">
                             <button className="flex items-center bg-[#02062e] text-white font-semibold px-4 py-2 rounded-md hover:bg-opacity-90">
-                                <img src="/public/img/app-store.png" className="w-6 h-6 mr-2" alt="App Store" />
+                                <img src="/assets/img/app-store.png" className="w-6 h-6 mr-2" alt="App Store" />
                                 Get it on the App Store
                             </button>
                             <button className="flex items-center bg-blue-500 text-white font-semibold px-4 py-2 rounded-md hover:bg-blue-600">
-                                <img src="/public/img/google-play.png" className="w-6 h-6 mr-2" alt="Google Play" />
+                                <img src="/assets/img/google-play.png" className="w-6 h-6 mr-2" alt="Google Play" />
                                 Get it on Google Play
                             </button>
                         </div>
@@ -47,9 +47,9 @@ const Footer = () => {
 
                     {/* Social Icons */}
                     <div className="flex space-x-4">
-                        <img src="/public/img/facebookLogo.png" alt="Facebook" className="w-6 h-6 cursor-pointer hover:scale-105 transition" />
-                        <img src="/public/img/linkedinLogo.png" alt="LinkedIn" className="w-6 h-6 cursor-pointer hover:scale-105 transition" />
-                        <img src="/public/img/twiterLogo.png" alt="Twitter" className="w-6 h-6 cursor-pointer hover:scale-105 transition" />
+                        <img src="/assets/img/facebookLogo.png" alt="Facebook" className="w-6 h-6 cursor-pointer hover:scale-105 transition" />
+                        <img src="/assets/img/linkedinLogo.png" alt="LinkedIn" className="w-6 h-6 cursor-pointer hover:scale-105 transition" />
+                        <img src="/assets/img/twiterLogo.png" alt="Twitter" className="w-6 h-6 cursor-pointer hover:scale-105 transition" />
                     </div>
                 </div>
             </footer>

@@ -2,21 +2,21 @@ import React from 'react';
 
 const cardData = [
   {
-    img: '/public/img/Capture1.PNG',
+    img: '/assets/img/Capture1.PNG',
     title: 'Expert Instruction',
-    line: '/public/img/line.PNG',
+    line: '/assets/img/line.PNG',
     text: 'The gradual accumulation of information about atomic and small-scale behaviour...'
   },
   {
-    img: '/public/img/Capture1.PNG',
+    img: '/assets/img/Capture1.PNG',
     title: 'Expert Instruction',
-    line: '/public/img/line.PNG',
+    line: '/assets/img/line.PNG',
     text: 'The gradual accumulation of information about atomic and small-scale behaviour...'
   },
   {
-    img: '/public/img/Capture1.PNG',
+    img: '/assets/img/Capture1.PNG',
     title: 'Expert Instruction',
-    line: '/public/img/line.PNG',
+    line: '/assets/img/line.PNG',
     text: 'The gradual accumulation of information about atomic and small-scale behaviour...'
   }
 ];
@@ -51,7 +51,7 @@ const Header = () => {
         {/* Right Image */}
         <div className="flex-1 flex justify-center">
           <img
-            src="/public/img/Capture.PNG"
+            src="/assets/img/Capture.PNG"
             alt="Hero Illustration"
             className="max-w-full h-auto rounded-xl shadow-lg"
           />

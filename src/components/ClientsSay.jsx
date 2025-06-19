@@ -24,7 +24,7 @@ const ClientsSay = () => {
                             doloribus expedita laborum saepe voluptas...”
                         </p>
                         <div className="flex items-center">
-                            <img src="/public/img/images (1).jpg" className="w-14 h-14 rounded-full object-cover" alt="Robert" />
+                            <img src="/assets/img/images (1).jpg" className="w-14 h-14 rounded-full object-cover" alt="Robert" />
                             <div className="ml-4">
                                 <p className="font-bold text-black">Robert</p>
                                 <p className="text-gray-400 text-sm">CTO, Robert Consultency</p>
@@ -39,7 +39,7 @@ const ClientsSay = () => {
                             doloribus expedita laborum saepe voluptas...”
                         </p>
                         <div className="flex items-center">
-                            <img src="/public/img/images (2).jpeg" className="w-14 h-14 rounded-full object-cover" alt="David Henry" />
+                            <img src="/assets/img/images (2).jpeg" className="w-14 h-14 rounded-full object-cover" alt="David Henry" />
                             <div className="ml-4">
                                 <p className="font-bold text-black">David Henry</p>
                                 <p className="text-gray-400 text-sm">CEO, Jeny Consultency</p>
@@ -54,7 +54,7 @@ const ClientsSay = () => {
                             doloribus expedita laborum saepe voluptas...”
                         </p>
                         <div className="flex items-center">
-                            <img src="/public/img/images (3).jpeg" className="w-14 h-14 rounded-full object-cover" alt="Mark Toun" />
+                            <img src="/assets/img/images (3).jpeg" className="w-14 h-14 rounded-full object-cover" alt="Mark Toun" />
                             <div className="ml-4">
                                 <p className="font-bold text-black">Mark Toun</p>
                                 <p className="text-gray-400 text-sm">Marketing Manager at Stech</p>
