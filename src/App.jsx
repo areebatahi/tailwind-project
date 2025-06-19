@@ -17,7 +17,7 @@ function App() {
      <Economy />
      <Client />
      <Teacher />
-     <ClientsSay />
+     <ClientsSay/>
      <Courses />
      <Footer />
     </>
